@@ -3,7 +3,7 @@ This a Windows Pandora client that runs as a system service and listens on a TCP
 
 ## Install Steps
 1. Install the TandoraTCP service by running `C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe TandoraTCP.exe`
-1. Modify `App.config` to suit your needs.  Supply at least pandoraUsername, and pandoraPassword.
+1. Modify `TandoraTCP.exe.config` to suit your needs.  Supply at least pandoraUsername, and pandoraPassword.
 1. Remember to open TCP port 1561 on any relevant firewalls
 1. Once the service is running you can send the below commands to control it.  These are just sent as raw ASCII via TCP.  You'll get a response back with the current status of TandoraTCP.
 
