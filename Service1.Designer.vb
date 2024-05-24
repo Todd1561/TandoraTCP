@@ -75,8 +75,11 @@ Partial Class Service1
     ' Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
-        Me.ServiceName = "Service1"
+        '
+        'Service1
+        '
+        Me.ServiceName = "TandoraTCP"
+
     End Sub
 
 End Class

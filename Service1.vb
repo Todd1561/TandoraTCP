@@ -157,7 +157,7 @@ Public Class Service1
             tcpClient.Close()
 
         Catch ex As Exception
-            EventLog.WriteEntry("TCPToTelegram", ex.Message & vbCrLf & vbCrLf & ex.StackTrace, EventLogEntryType.Error)
+            MakeLogEntry("Exception: " & ex.Message & vbCrLf & vbCrLf & ex.StackTrace)
         End Try
 
     End Sub
